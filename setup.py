@@ -13,4 +13,17 @@ setup(
     description='Python interface for mi band ',
     long_description='Python interface to interact with Xiaomi mi band fitness tracker',
     keywords='bluetooth low-energy ble miband xiaomi',
-)
+    install_requires=[
+        'pybluez[ble]',
+    ],
+    classifiers=[
+        'Development Status :: 1 - Planning',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.5',
+        'Topic :: System :: Hardware :: Hardware Drivers',
+        'Operating System :: POSIX :: Linux'
+    ],
+    zip_safe=False)
