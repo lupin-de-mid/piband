@@ -1,0 +1,5 @@
+[MASTER]
+reports=no
+
+[EXCEPTIONS]
+overgeneral-exceptions=Exception
