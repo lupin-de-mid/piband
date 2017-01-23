@@ -11,7 +11,8 @@ BatteryUUID = "0000ff0c-0000-1000-8000-00805f9b34fb"
 
 def read_MiBand(mac):
     """
-    Read mi band state bu mac
+    Read mi band state bu mac.
+
     :type mac: str
     :rtype: MiBandState
     :param mac: bluetouth mac of miband

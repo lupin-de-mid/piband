@@ -1,3 +1,4 @@
+"""Contains public stuff fore mi band"""
 import enum
 
 
