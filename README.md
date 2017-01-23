@@ -1,2 +1,2 @@
 # piband
-Python3  interface to interract with mi band
+Python3 interface to interact with mi band
