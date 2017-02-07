@@ -1,17 +1,12 @@
-from __future__ import print_function
-
-import sys
 from bluetooth.ble import GATTRequester
-import codecs
 
 from piband.MiBandState import MiBandState
 
 BatteryUUID = "0000ff0c-0000-1000-8000-00805f9b34fb"
 
-
 def read_MiBand(mac):
     """
-    Read mi band state bu mac.
+    Read mi band state by mac.
 
     :type mac: str
     :rtype: MiBandState
@@ -22,5 +17,4 @@ def read_MiBand(mac):
     requester.connect(True)
     data = requester.read_by_uuid(
         BatteryUUID)
-    print("Device name: ")
     return MiBandState(mac, data[0].encode())

@@ -14,7 +14,7 @@ setup(
     long_description='Python interface to interact with Xiaomi mi band fitness tracker',
     keywords='bluetooth low-energy ble miband xiaomi',
     install_requires=[
-        'pybluez[ble]',
+        'gattlib==0.20150805',
     ],
     classifiers=[
         'Development Status :: 1 - Planning',
